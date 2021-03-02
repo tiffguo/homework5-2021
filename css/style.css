@@ -94,7 +94,6 @@ a:hover {
 
 /*Req 5*/
 .container{
-  /* display: grid; */
   display: grid;
   grid-template-columns: 1fr 3fr 3fr 1fr;
   grid-template-rows: auto auto auto auto;
@@ -169,7 +168,7 @@ header{
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
-  text-align: center;
+  align-self: center;
   /*Your code here:*/
 }
 
@@ -189,8 +188,8 @@ header{
   /*Req 11*/
   .container{
     /*Your code here:*/
-    grid-template-columns: 50px, auto, 500px, auto, 50px;
-    grid-template-rows: 400px, 425px, 425px, 400px;
+    grid-template-columns: 50px auto 500px auto 50px;
+    grid-template-rows: 400px 425px 425px 400px;
 
   }
 
